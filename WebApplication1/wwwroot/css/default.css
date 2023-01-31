@@ -1,0 +1,25 @@
+﻿/*These are most of the styles you see on the page.  
+    the body has been altered, and the label colors as well.  the background
+    also changed.  Nothing really major here in general.
+*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:antiquewhite;
+    text-align: center; 
+}
+
+label {
+    font-size: 20px;
+    color: darkred;
+    width: 200px;
+    display: inline-block;
+}
+
+img {
+    height: 700px;
+}
+
+p {
+    padding: 1rem;
+    border-block: double;
+}
