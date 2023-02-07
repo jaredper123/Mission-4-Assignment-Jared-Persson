@@ -1,7 +1,7 @@
 ﻿$("#btnSend").click(function () {
-
+    
     //This is the initial call for the javascript variables.  Each one is assigned from the input variables.
-    const assignments = parseInt($("#assignmentPercent").val());
+    const assignments = parseFloat($("#assignmentPercent").val());
     const groups = parseFloat($("#groupPercent").val());
     const quizzes = parseFloat($("#quizPercent").val());
     const midterms = parseFloat($("#midtermPercent").val());
@@ -46,5 +46,6 @@
         letterGrade = "E";
     }
     //Returning the results here, through simple jquery.
-    $("#results").html(letterGrade);
+   //$("#results").html(letterGrade);
+    alert("Your final grade");
 });
